@@ -1,6 +1,6 @@
 # Vechicle Damage Detection
 ![ObjectDetection](images/Tensorflow-Object-Detection.jpg)
-This project identifies the damage in cars and masks the area of damage, this project can be used in various in various use cases for example vechicle damage assessment.
+This project identifies the damage in cars and masks the area of damage, this project can be used in various use cases for example vechicle damage assessment.
 
 # Features!
 
@@ -13,7 +13,7 @@ This project identifies the damage in cars and masks the area of damage, this pr
 
 # Training a Semantic Segmentation Model
 
- - After the collection of dataset we nned to annotate it using any of the annotation tool.
+ - After the collection of dataset we need to annotate it using any of the annotation tool.
  - In this project [labelme](https://github.com/wkentaro/labelme) is used to annotate
  - ![image Annotation](images/annotation.png)
  - After annotation in order to create tf record there is a file in research folder in named  [createtfrecords.py](models/research/create_tf_records.py), In this file , in function main we need to pass four arguments they are train image path and the anootations of these images which willbe in json format, the next argument is the label map path this file is path for the labels or classes of the annotated images.
