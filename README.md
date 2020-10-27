@@ -24,5 +24,4 @@ This project identifies the damage in cars and masks the area of damage, this pr
  - ```python export_inference_graph.py --input_type image_tensor --pipeline_config_path customtraining/mask_rcnn_inception_v2_coco.config --trained_checkpoint_prefix customtraining/model.ckpt-3609 --output_directory inference_graph ```
 
  - After creating the inference graph run the object_detection_tutorial.ipynb which will predict on test images, i.e the output will be segmented images or masked images.
- 
-![segmentedimage](images/output.png)
+ - ![segmentedimage](images/output.png)
