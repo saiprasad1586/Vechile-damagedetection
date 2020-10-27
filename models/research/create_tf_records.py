@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug 26 10:57:09 2018
-
-@author: shirhe-lyh
-"""
 from models.research import read_pbtxt_file
 #import read_pbtxt
 """Convert raw dataset to TFRecord for object_detection.
