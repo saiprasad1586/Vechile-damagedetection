@@ -25,3 +25,5 @@ This project identifies the damage in cars and masks the area of damage, this pr
 
  - After creating the inference graph run the object_detection_tutorial.ipynb which will predict on test images, i.e the output will be segmented images or masked images.
  - ![segmentedimage](images/output.png)
+## Contributors
+<a href="https://github.com/lochan-123"> K Lochan </a>
